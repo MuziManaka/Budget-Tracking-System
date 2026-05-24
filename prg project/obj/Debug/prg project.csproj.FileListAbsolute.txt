@@ -1,0 +1,7 @@
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\bin\Debug\prg project.exe.config
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\bin\Debug\prg project.exe
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\bin\Debug\prg project.pdb
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\obj\Debug\prg project.csproj.AssemblyReference.cache
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\obj\Debug\prg project.csproj.CoreCompileInputs.cache
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\obj\Debug\prg project.exe
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\obj\Debug\prg project.pdb
