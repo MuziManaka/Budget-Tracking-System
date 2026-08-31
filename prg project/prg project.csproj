@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\Category.cs" />
+    <Compile Include="Enums\TransactionType.cs" />
     <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\Budget.cs" />
     <Compile Include="Models\SavingsGoal.cs" />
@@ -52,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

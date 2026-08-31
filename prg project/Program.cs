@@ -44,14 +44,7 @@ namespace prg_project
         static List<string> goalNames = new List<string>();
         static List<decimal> goalTargets = new List<decimal>();
         static List<decimal> goalCurrentAmount = new List<decimal>();
-        public class Transactions
-        {
-            public string Type;       // "Income" or "Expense"
-            public string Category;   // "Rent", "Groceries", etc.
-            public decimal Amount;     // e.g. 1500.00
-            public DateTime Date;       // e.g. "2026-05-17"
-            public string Description; // optional note
-        }
+    
         enum Menu
         {
           SetBudgetLimit =1,
