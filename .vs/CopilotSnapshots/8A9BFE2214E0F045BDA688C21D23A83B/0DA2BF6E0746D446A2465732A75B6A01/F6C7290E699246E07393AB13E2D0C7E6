@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using prg_project.Enums;
+using prg_project.Models;
+
+namespace prg_project.Services
+{
+    internal class BudgetService
+    {
+        public List<Budget> budgets = new List<Budget>();
+
+        public void AddBudgets(Budget budget)
+        {
+            if(budget.Limit < 0)
+            {
+                throw new ArgumentException("Budget limit cannot be negative.");
+            }
+            if (budget.AmountSpent < 0)
+            { 
+                throw new ArgumentException("Amount spent cannot be negative.");
+            }
+            budgets.Add(budget);
+        }
+        public void SetBudget(Budget budget,Category category, decimal amount)
+        {
+            if (amount < 0)
+            {
+                throw new ArgumentException("Budget limit cannot be negative.");
+            }
+            var budgetcategory = budgets.FirstOrDefault(b => b.Category == category);
+            if (budgetcategory != null)
+            {
+                budgetcategory.Limit = amount;
+            }
+            else 
+            {
+                string budgetId = "BG" + Guid.NewGuid().ToString();
+
+                budgets.Add(new Budget(budgetId, category, amount, 0));
+            }
+           
+
+        }
+    }
+}
