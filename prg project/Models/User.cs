@@ -12,13 +12,15 @@ namespace prg_project.Models
         public string UserName { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
+        public DateTime CreatedDate { get; set; }
         
-        public User(string userId, string userName, string password, string email)
+        public User(string userId, string userName, string password, string email, DateTime date)
         {
             UserId = userId;
             UserName = userName;
             Password = password;
             Email = email;
+            CreatedDate = date;
         }
     }
 }
