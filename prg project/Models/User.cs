@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace prg_project.Models
 {
-    internal class User
+    public class User
     {
         public string UserId { get; set; }
         public string UserName { get; set; }

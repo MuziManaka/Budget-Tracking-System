@@ -32,6 +32,7 @@ namespace prg_project.Services
                 throw new ArgumentException("Budget limit cannot be negative.");
             }
             var budgetcategory = budgets.FirstOrDefault(b => b.Category == category);
+
             if (budgetcategory != null)
             {
                 budgetcategory.Limit = amount;

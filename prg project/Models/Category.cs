@@ -1,13 +1,13 @@
-﻿using prg_project.Models;
+﻿using prg_project.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace prg_project.Enums
+namespace prg_project.Models
 {
-    internal class Category
+    public class Category
     {
         public string CategoryID { get; set; }
         public User UserId { get; set; }
@@ -19,7 +19,7 @@ namespace prg_project.Enums
         public Category(string id, User userid, string name, TransactionType type, string description)
         {
             CategoryID = id;
-            UserId = userid;
+           // UserId.UserId = userid.UserId;
             Type = type;
             Description = description;
             IsAcitive = true;

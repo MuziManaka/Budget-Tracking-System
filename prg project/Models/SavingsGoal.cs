@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace prg_project.Models
 {
-    internal class SavingsGoal
+    public class SavingsGoal
     {
         public string GoalId { get; set; }
         public string GoalName { get; set; }

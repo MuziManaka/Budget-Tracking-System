@@ -5,3 +5,23 @@ C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method applicat
 C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\obj\Debug\prg project.csproj.CoreCompileInputs.cache
 C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\obj\Debug\prg project.exe
 C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\prg project\obj\Debug\prg project.pdb
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg project.csproj.AssemblyReference.cache
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Forms.BudgetForm.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Forms.Categories.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Forms.Dashboard.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Forms.Login.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Forms.Register.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Forms.ReportForm.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Forms.SavingGoalsForm.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Forms.TransactionForm.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Forms.WelcomPage.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg_project.Properties.Resources.resources
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg project.csproj.GenerateResource.cache
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg project.csproj.CoreCompileInputs.cache
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg project.exe
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg project.pdb
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\bin\Debug\prg project.exe.config
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\bin\Debug\prg project.exe
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\bin\Debug\prg project.pdb
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Muzi Manaka\OneDrive - belgiumcampus.ac.za\Documents\c# method application\New folder\prg project\obj\Debug\prg proj.40791336.Up2Date
