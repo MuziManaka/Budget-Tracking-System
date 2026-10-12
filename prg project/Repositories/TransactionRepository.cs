@@ -39,7 +39,7 @@ namespace prg_project.Repositories
                     command.Parameters.AddWithValue("@Amount", transaction.Amount);
                     command.Parameters.AddWithValue("@Date", transaction.Date);
                     command.Parameters.AddWithValue("@Description", transaction.Description);
-                    //4. Open the connection so work can be don
+                    //4. Open the connection so work can be done
                     // 5. Use "ExecuteNonQuery when changing data"
                     connection.Open();
                     command.ExecuteNonQuery();

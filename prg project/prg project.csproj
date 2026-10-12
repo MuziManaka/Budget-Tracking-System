@@ -124,6 +124,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Repositories\BudgetRepo.cs" />
     <Compile Include="Repositories\TransactionRepository.cs" />
     <Compile Include="Services\BudgetService.cs" />
     <Compile Include="Services\SavingsService.cs" />

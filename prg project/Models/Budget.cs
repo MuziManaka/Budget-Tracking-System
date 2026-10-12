@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using prg_project.Enums;
 namespace prg_project.Models
 {
-    internal class Budget
+    public class Budget
     {
         public string BudgetId { get; set; }
         public User User { get; set; }
@@ -17,13 +17,13 @@ namespace prg_project.Models
         public decimal RemainingAmount { get => Limit - AmountSpent; } // e.g. 1000.00
         public decimal PercentageUsed { get => (AmountSpent / Limit) * 100; } // e.g. 33.33
 
-        public Budget(string budgetId, User user, Category category, decimal limit, decimal amountSpent)// decimal remainingAmount, decimal percentageUsed)
+        public Budget(string budgetId, User user, Category category, decimal limit) //decimal amountSpent)// decimal remainingAmount, decimal percentageUsed)
         {
             BudgetId = budgetId;
             User.UserId = user.UserId;
             Category = category;
             Limit = limit;
-            AmountSpent = amountSpent;
+          //  AmountSpent = amountSpent;
            // RemainingAmount = remainingAmount;
            // PercentageUsed = percentageUsed;
         }
