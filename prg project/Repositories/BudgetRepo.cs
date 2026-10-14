@@ -88,5 +88,44 @@ namespace prg_project.Repositories
             }
             return budgets;
         }
+
+        public List<Budget> GetBudgetById(string budgetId)
+        {
+            List<Budget> budgets = new List<Budget>();
+
+            string sql =
+                @"SELECT BudgetID, UserID, CategoryID, BudgetLimit
+                    FROM BudgetsT
+                    WHERE BudgetID = @budgetId";
+
+            using (SqlConnection conn = new SqlConnection(connectionstring))
+            {
+                using (SqlCommand comm = new SqlCommand(sql,conn))
+                {
+                    // so ye i think hore bc wa searcher ka selo you retrieve the parameter basically.. so yoba
+                    comm.Parameters.AddWithValue("@BudgetId", budget.BudgetId);
+                    conn.Open();
+
+                    using (SqlDataReader reader = comm.ExecuteReader())
+                    {
+                        while(reader.Read())
+                        {
+                             Budget budget = new Budget
+                                (
+                                    reader["BudgetId"].ToString(),
+                                    (User)reader["UserId"],
+                                    (Category)reader["CategoryId"],
+                                    Convert.ToDecimal(reader["Limit"])
+                                );
+
+
+                        }
+                    }
+
+                }
+            }
+        }
+
+
     }
 }
